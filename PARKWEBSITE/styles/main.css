@@ -155,9 +155,6 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
-
 .description{
   flex: 1;
 }
@@ -179,6 +176,15 @@ footer{
   display: block;
 }
 
+.cols{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.wrapper h2{
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -188,6 +194,9 @@ footer{
 @media (max-width: 480px) {
 
 }
+  .hidden-on-lg{
+    display: none;
+  }
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -195,6 +204,12 @@ footer{
 */
 
 @media (max-width: 1024px) {
+  .hidden-on-sm{
+    display: none;
+  }
+  .hidden-on-lg{
+    display: block;
+  }
   .logo{
     margin: 0 auto;
     width: 256px;
