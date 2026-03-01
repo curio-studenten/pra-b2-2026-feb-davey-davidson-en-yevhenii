@@ -178,7 +178,12 @@ footer{
 
 .cols{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; /* dit zorgt ervoor dat de 2 divs naast elkaar komen te staan */
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* dit zorgt ervoor dat de 2 divs naast elkaar komen te staan */
 }
 
 .wrapper h2{
