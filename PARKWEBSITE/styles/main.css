@@ -202,6 +202,10 @@ footer{
   .hidden-on-lg{
     display: none;
   }
+  .sidy-by-side{
+    display: flex;
+    justify-content: space-between;
+  }
 
 /* 
   ##Device = Tablets, Ipads (portrait)
